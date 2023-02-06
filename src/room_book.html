@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="pagestyle.css">
+	<title>Book | Sunny Isle</title>
+</head>
+<body>
+	<div id = "interface">
+		<div>
+			<form action = "onbook.php" method="post">
+				<p>
+					Choose your check-in date:<br>
+					<input type="date" name="checkin"><br>
+					Choose your check-out date:<br>
+					<input type="date" name="checkout"><br>
+					Select the type of your room:<br>
+					<input type="radio" name="roomtype" value = "largeroomwithdoublebeds">Large room with double beds<br>
+					<input type="radio" name="roomtype" value = "largeroomwithalargesinglebed">Large room with a large single bed<br>
+					<input type="radio" name="roomtype" value = "smallroomwithasinglebed">Small room with a single bed<br>
+					<input type="radio" name="roomtype" value = "VIProom">VIP room<br>
+
+				</p>
+				<input id = "button" type = "submit" value = "SUBMIT">
+			</form>
+		</div>
+	</div>
+</body>
+</html>
